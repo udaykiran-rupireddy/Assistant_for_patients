@@ -55,7 +55,7 @@ while(True):
         else:
             print("sending message to care taker")
             if _name=='main_':
-                email_alert("medicine 1 not taken ",data,"recipient_mail@gmail.com")
+                email_alert("medicine 2 not taken ",data,"recipient_mail@gmail.com")
 
     if (datetime_kolkata.strftime("%H:%M:%S")=="16:00:00" ):
         print("take medicine 3")
@@ -65,7 +65,7 @@ while(True):
         else:
             print("sending message to care taker")
             if _name=='main_':
-                email_alert("medicine 1 not taken ",data,"recipient_mail@gmail.com")
+                email_alert("medicine 3 not taken ",data,"recipient_mail@gmail.com")
 
     if (datetime_kolkata.strftime("%H:%M:%S")=="21:00:00" ):
         print("take medicine 4")
@@ -75,4 +75,4 @@ while(True):
         else:
             print("sending message to care taker")
             if _name=='main_':
-                email_alert("medicine 1 not taken ",data,"recipient_mail@gmail.com")
+                email_alert("medicine 4 not taken ",data,"recipient_mail@gmail.com")
